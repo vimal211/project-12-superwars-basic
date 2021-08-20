@@ -30,7 +30,7 @@ const initPlayers = (players) => {
     detailedPlayers.push({
       name: players[i],
       strength: getRandomStrength(),
-      image: `../images/super-${i + 1}.png`,
+      image: `./images/super-${i + 1}.png`,
       type: typeOfPlayer(),
     });
   }
